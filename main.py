@@ -10,7 +10,7 @@ from werkzeug.exceptions import BadRequest
 from werkzeug.exceptions import HTTPException
 from flask import Flask
 from app.stub.stub import ExchangeRateAPI
-from utils import validate_request_data
+from app.utils.utils import validate_request_data
 
 app = Flask(__name__)
 
