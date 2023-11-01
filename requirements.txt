@@ -1,0 +1,6 @@
+redis~=5.0.1
+flask~=3.0.0
+werkzeug~=3.0.1
+
+asyncio~=3.4.3
+httpx~=0.25.0
