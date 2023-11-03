@@ -1,5 +1,5 @@
-from fixerio_client import APIError
-from fixerio_client import FixerIOClient
+from app.fxerio.fixerio_client import APIError
+from app.fxerio.fixerio_client import FixerIOClient
 from app.utils.datamodel import ExchangeRateData, ConversionData, TimeSeriesData, HistoricalRatesData, \
     HistoricalRateData
 

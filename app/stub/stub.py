@@ -6,7 +6,7 @@ from flask import jsonify
 from werkzeug.exceptions import HTTPException
 
 from app.fxerio.fixerio_adapter import FixerIOAdapter
-from datamodel import HistoricalRateData
+from app.utils.datamodel import HistoricalRateData
 
 
 class ExchangeRateAPI:
